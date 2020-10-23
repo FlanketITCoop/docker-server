@@ -4,6 +4,15 @@
 wget https://raw.githubusercontent.com/FlanketITCoop/docker-server/master/install.sh && sh install.sh
 ```
 
+## PMA 다운로드 및 설치
+```bash
+cd ./sources/default/
+apt -y install unzip
+wget https://files.phpmyadmin.net/phpMyAdmin/5.0.4/phpMyAdmin-5.0.4-all-languages.zip
+unzip phpMyAdmin-5.0.4-all-languages.zip
+mv phpMyAdmin-5.0.4-all-languages pma
+```
+
 ## 폴더 설명
 1. configure - Docker 빌드업 소스 경로
 2. settings - 각종 환경설정파일 경로(아파치, PHP, 기타...)
