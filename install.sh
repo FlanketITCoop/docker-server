@@ -10,7 +10,7 @@ service docker start
 docker version
 docker-compose version
 
-git clone https://github.com/DevMoeWork/docker-server ./devel
+git clone https://github.com/FlanketITCoop/docker-server ./devel
 cd devel
 
 # 기본 디렉토리 생성
